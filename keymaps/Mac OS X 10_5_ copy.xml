@@ -1,0 +1,43 @@
+<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="ActivateDebugToolWindow" />
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateFindToolWindow" />
+  <action id="ActivateProjectToolWindow" />
+  <action id="ActivateRunToolWindow" />
+  <action id="ActivateTODOToolWindow" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
+  <action id="Refresh" />
+  <action id="Replace" />
+  <action id="Rerun" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta 1" />
+  </action>
+  <action id="ShowErrorDescription">
+    <keyboard-shortcut first-keystroke="shift meta 1" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="meta 5" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="meta 6" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+  <action id="Vcs.Log.Refresh" />
+  <action id="hg4idea.QRefresh" />
+</keymap>
