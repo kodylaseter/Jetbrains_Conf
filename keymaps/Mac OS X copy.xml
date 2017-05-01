@@ -1,0 +1,55 @@
+<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="ActivateDebugToolWindow" />
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateFindToolWindow" />
+  <action id="ActivateProjectToolWindow" />
+  <action id="ActivateRunToolWindow" />
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorCodeBlockEnd" />
+  <action id="EditorCodeBlockStart" />
+  <action id="EditorSelectWord" />
+  <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
+  <action id="FindUsages">
+    <mouse-shortcut keystroke="shift meta button1" />
+  </action>
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+    <mouse-shortcut keystroke="shift button2" />
+  </action>
+  <action id="Replace" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta 1" />
+  </action>
+  <action id="ShowErrorDescription">
+    <keyboard-shortcut first-keystroke="shift meta 1" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="meta 5" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+</keymap>
