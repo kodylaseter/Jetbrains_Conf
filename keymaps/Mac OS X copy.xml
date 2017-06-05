@@ -1,8 +1,29 @@
 <keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="ActivateDebugToolWindow" />
+  <action id="ActivateFindToolWindow" />
+  <action id="ActivateRunToolWindow" />
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="Console.Jdbc.Close" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
   <action id="EditorSelectWord" />
+  <action id="FileChooser.GotoModule" />
+  <action id="Replace" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="meta 5" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
 </keymap>
